@@ -1,0 +1,10 @@
+/* in 01 we are just playing with outer container*/
+.container {
+    display: flex;
+    /* default display as per main axis i.e in row for web  and in column for mobile, By default*/
+    /* flex-direction: row;
+    flex-direction: row-reverse;
+    flex-direction: column; */
+    flex-direction: column-reverse;
+    border: 2px solid black;
+}

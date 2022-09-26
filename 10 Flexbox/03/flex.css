@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  border: 3px solid black;
+  height: 500px;
+  justify-content: center;
+  /* align-items: flex-start;
+  align-items: flex-end;
+  align-items: center;
+  align-items: stretch; */
+  align-items: baseline;
+  /* classic mistake as defined above property still it doesn't place container items in center from top to bottom as we 
+    haven't mentioned container height */
+}
+
+h1{
+    font-size: 100px;
+    color: black;
+}

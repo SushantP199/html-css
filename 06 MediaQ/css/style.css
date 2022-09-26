@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&display=swap");
+
+body {
+  background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+  color: #ffffff;
+  /* to remove left and right margin of footer getting due to body default margin set margin 0*/
+  margin: 0;
+}
+
+h1 {
+  font-size: 70px;
+  text-align: center;
+  margin-top: 17%;
+  color: #ffffff;
+  font-family: "Montserrat";
+  font-weight: 400;
+}
+
+span {
+  color: #1f1f1f;
+  font: 100px;
+  font-weight: 900;
+}
+
+p {
+  text-align: center;
+  margin-top: -20px;
+  font-size: 18px;
+  letter-spacing: 3px;
+}
+
+button {
+  margin: auto;
+  display: block;
+}
+
+.btn {
+  background-color: transparent;
+  border: 2px solid #1f1f1f;
+  border-radius: 0.6rem;
+  color: #1f1f1f;
+  font-size: 1rem;
+  padding: 1em 2em;
+  cursor: grab;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Montserrat";
+  font-weight: 300;
+}
+
+.btn:hover {
+  color: #ffffff;
+}
+
+.lco {
+  transition: box-shadow 300ms ease-out, color 300ms ease-in-out;
+}
+
+.lco:hover {
+  box-shadow: 0 0 40px 40px #1f1f1f inset;
+}
+
+footer {
+  background-color: #1f1f1f;
+  /* position fixed and bottom 0 setting footer stick to bottom */
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 2% 0%;
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    background: orange;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+  span {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 600px) and (min-width: 400px) {
+  body {
+    background: crimson;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  span {
+    font-size: 60px;
+  }
+}

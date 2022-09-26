@@ -1,0 +1,17 @@
+/* in 02 we will see how to apply properties to inner elements of container (just after properties that can be applied to container itself)*/
+
+.container{
+    display: flex;
+    border: 1px solid black;
+    /* always mention flex-direction irrespective of default direction works for us or not */
+    flex-direction: row;
+
+    /* default justify-content is flex-start */
+    /* justify-content is works on main-axis, By default*/
+
+    /* justify-content: flex-start;
+    justify-content: flex-end;
+    justify-content: center;
+    justify-content: space-around; */
+    justify-content: space-between;
+}

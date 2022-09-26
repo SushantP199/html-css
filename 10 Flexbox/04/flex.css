@@ -1,0 +1,11 @@
+.container {
+  border: 2px solid black;
+
+  width: 600px;
+  /* with this 600px width and given div data items gone overflow and this classic mistake mostly faced in mobile screens*/
+
+  flex-wrap: wrap;
+  /* this overflow mistake solved easily solved by flex-wrap */
+
+  display: flex;
+}
